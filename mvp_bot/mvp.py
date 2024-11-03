@@ -89,12 +89,12 @@ async def on_voice_state_update(member, before, after):
         return
 
     clientVoice = member.guild.voice_client
+    randomReact = r.randint(0, 9)
     if clientVoice is None or clientVoice.channel is None:
         if after.channel is not None:
             await after.channel.connect()
 
             await asyncio.sleep(1)
-
             if randomReact == 0:
                 await playVoiceUpdate(member, 'effects/csoka/napot')
             else:
