@@ -18,7 +18,7 @@ def webhook():
     # Git pull parancs
     try:
         # A repó helye
-        os.chdir('https://github.com/Blasonka/MVP')  # cseréld le a repó helyére
+        os.chdir('root/MVP/')  # cseréld le a repó helyére
         subprocess.run(['git', 'pull', 'origin', 'main'], check=True)  # Cseréld le 'main'-re, ha másik ágat használsz
 
         # (Opció) A Discord bot újraindítása
