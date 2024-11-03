@@ -1,0 +1,11 @@
+```
+Pokémonok adományozása a laborba:
+
+Ha van olyan pokémonod, amit nem szeretnél megtartani, akkor dönthetsz úgy, hogy eladományozod a labornak kutatási célokra.
+'#pok trans/transfer pokémon_neve pokémon_cp'
+
+Az eladományozott pokémonokért PokéCoin-t kapsz arányosan a pokémon CP-hez.
+
+Minden nap változik a kereslet a laborban, így napról napra más pokémonok értékesebbek lesznek az átlagnál.
+A mai napon keresettebb pokémonok listázásához használd a #pok trans/transfer parancsot.
+```

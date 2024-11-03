@@ -1,0 +1,24 @@
+```
+Tudnivalók a Pokémon eventről:
+
+A pokémon eventen számos lehetőség adódik, hogy megmutasd, te vagy a legjobb Pokémon Trainer.
+A '#pok' parancs ad helyet az eventben való részvételnek, ezt kell használnod, ha az eventben akarsz részt venni.
+
+Az eventhez tartozik egy külön text channel kategória, az összes '#pok' parancsot itt kéretik használni!
+
+Event parancsok:
+'#pok join' - Részvétel az eventen. A belépésért kapsz kezdőfelszerelést.
+'#pok exit' - Kilépés az eventből. Figyelem: ekkor az összes eddig gyűjtött pénzed, tárgyad és pokémonod elveszik.
+'#pok catch' - Pokémonok elfogásához használható parancs.
+'#pok shop/buy' - Felszerelés vásárlása.
+'#pok use' - Felszerelés használata.
+'#pok list' - Elfogott pokémonjaid listázása.
+'#pok inv' - Felszereléseid listázása.
+'#pok daily/login' - Napi jutalom begyűjtése, 24 óránként használható.
+'#pok fight' - Pokémon harc indítása.
+'#pok trans/transfer' - Pokémonok eladása.
+'#pok lead/leaderboard' - A ranglista kiírása.
+
+Részletesebb segítségért egy parancsról ezt írd be: '#pok help parancs_neve'.
+(Ahol a parancs rövidíthető, ott a leghosszabb parancsnevet kell beírni.)
+```

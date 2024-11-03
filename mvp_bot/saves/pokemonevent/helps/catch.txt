@@ -1,0 +1,12 @@
+```
+Pokémonok elfogása:
+
+Ha megjelenik egy pokémon egy területen, akkor gyorsan kell cselekedned, ha el akarod kapni.
+
+Ezzel a paranccsal tudod ezt megtenni:
+'#pok catch pokémon_neve pokémon_cp'
+
+Ha te voltál a leggyorsabb, aki ezt beírta, akkor a tiéd lesz a pokémon.
+
+Az elkapott pokémonjaid listázásához írd be a '#pok list' parancsot.
+```

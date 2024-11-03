@@ -1,0 +1,17 @@
+```
+Eszközök használata:
+
+A boltban vásárolt, avagy napi bejelentkezésért jutalmul kapott eszközöket ezzel a paranccsal tudod használni:
+'#pok use eszköz_neve *egyéb_argumentumok'
+
+Az eszközök nevét ugyanúgy lehet rövidíteni, mint a boltban vásárlásnál.
+Az egyéb argumentumok helyére csak akkor kell írni valamit, ha alább, a felszerelés leírásánál azt látod.
+
+Mit csinálnak az adott eszközök?
+Incense - Megnöveli a pokémonok megjelenési gyakoriságát az elkövetkező fél órára. Egyszerre csak 1 lehet használatban az összes felhasználó közül.
+Tracker - Kilistázza az egyik csatornában a nem elfogott pokémonokat.
+Potion - Teljesen feltölti egy pokémon HP-ját. (egyéb_argumentumok: pokémon_neve pokémon_cp)
+Elixir - Teljesen feltölti egy pokémon PP-jét. (egyéb_argumentumok: pokémon_neve pokémon_cp)
+
+Fontos: a PokéBall ugyan eszköznek számít, de ezt nem tudod külön használni, hiszen ezt akkor kell, amikor pokémont fogsz el.
+```

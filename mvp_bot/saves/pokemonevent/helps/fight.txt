@@ -1,0 +1,25 @@
+```
+Harcolás pokémonokkal:
+
+A pokémonokat szintekbe osztjuk 1-től 4-ig CP alapján:
+   1-1000 CP - 1. szint
+1001-2000 CP - 2. szint
+2001-3000 CP - 3. szint
+3001-4000 CP - 4. szint
+
+Két pokémon csak akkor tud egymással harcolni, ha megegyező szinten vannak.
+Harc indításához használd a '#pok fight szint_száma pokémonod_neve pokémonod_CP-je' parancsot. Harc elfogadásához ugyanez a parancs.
+Ha mégsem akarsz harcot indítani, használd a '#pok fight cancel' parancsot.
+
+A harc körökre van osztva, a két játékos felváltva következik. A játékosok az alábbi akciók egyikét használhatják a körükben:
+'#pok fight att/attack' - Az alap támadása a pokémonnak.
+'#pok fight spec/special' - Egy erősebb támadás, csak akkor lehet használni, ha van min. 5 PP-je a pokémonnak.
+'#pok fight def' - Védekezés a következő támadás ellen, kb. 50%-os hatékonysággal.
+'#pok fight heal' - Ha van Potion-öd, akkor feltölti a pokémon HP-ját. (Health Points)
+'#pok fight charge' - Ha van Elixir-ed, akkor feltölti a pokémon PP-jét. (Power Points)
+'#pok fight surr/surrender' - Feladod a harcot, ezzel veszítesz.
+
+Figyelem: harc közben nem tudsz Potion-t vagy Elixir-t venni a boltban, előtte kell betáraznod.
+
+A nyertes játékos megkapja az ellenség pokémonját.
+```

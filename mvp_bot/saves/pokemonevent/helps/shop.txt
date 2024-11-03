@@ -1,0 +1,13 @@
+```
+Eszközök vásárlása:
+
+Ha kifogytál valamilyen eszközből, akkor érdemes meglátogatni a boltot. A bolt tartalmának listázása:
+'#pok shop/buy'
+
+Ha tudod, hogy mit szeretnél vásárolni, akkor a következő parancsot írd be:
+'#pok shop/buy eszköz_neve mennyiség'
+
+Az eszköz nevét lehet rövidíteni, ezek a rövidítések a bolt tartalmának listázásakor, az eszközök neve mellett, zárójelben jelennek meg.
+
+Ha a mennyiség helyre nem írsz semmit, akkor 1-et fogsz venni a kívánt eszközből.
+```
