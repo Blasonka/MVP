@@ -6,7 +6,7 @@ generalPath = ''
 if platform.system() == 'Windows':
     generalPath = 'F:/Programming/mvp_bot/'
 else:
-    generalPath = '//var/services/homes/mvp_bot/mvp_bot/'
+    generalPath = '//MVP/mvp_bot/homes/mvp_bot/mvp_bot/'
 
 # audio
 audioPath = generalPath + 'audio/'
