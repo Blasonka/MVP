@@ -6,6 +6,7 @@ import discord
 import platform
 from discord.utils import get
 from discord.ext import commands
+from dotenv import load_dotenv, dotenv_values
 import asyncio
 import datetime
 import random as r
@@ -1153,5 +1154,6 @@ def saveReminders():
 # endregion
 ##############################################################################################################################################################################
 # launch bot
-client.run('Nzc4NjEwNzIwMzU0OTkyMTY4.X7UfvQ.LaRoZPt8GWmOyMOLBY3JduR2Iak')
+load_dotenv()
+client.run(os.getenv("TOKEN"))
 ##############################################################################################################################################################################
