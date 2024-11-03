@@ -36,7 +36,7 @@ for roomID in pmn.channelIDs:
     allowedIDs.append(roomID)
 
 if platform.system() == 'Linux':
-    discord.opus.load_opus('/opt/lib/libopus.so.0')
+    discord.opus.load_opus('/usr/lib/x86_64-linux-gnu/libopus.so.0')
 
 # endregion
 ##############################################################################################################################################################################
